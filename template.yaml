@@ -104,10 +104,10 @@ body:
       </div>
 
 projects: # relevant projects
-  - title: Relevant Project I
-    description: abstract text
-    img: https://getuikit.com/docs/images/light.jpg
-    journal: "ABCD'23"
+  # - title: Relevant Project I
+  #   description: abstract text
+  #   img: https://getuikit.com/docs/images/light.jpg
+  #   journal: "ABCD'23"
   #   url: https://denkiwakame.github.io/academic-project-template/
   # - title: Relevant Project II
   #   description: abstract text
