@@ -103,11 +103,11 @@ body:
       </div>
 
 projects: # relevant projects
-  # - title: Relevant Project I
-  #   description: abstract text
-  #   img: https://getuikit.com/docs/images/light.jpg
-  #   journal: "ABCD'23"
-  #   url: https://denkiwakame.github.io/academic-project-template/
+  - title: SparseMeXT
+    description: Unlocking the Potential of Sparse Representations for HD Map Construction
+    img: overall_framework.jpg
+    journal: "IROS'25 Under Review"
+    url: https://sparsemext.github.io/
   # - title: Relevant Project II
   #   description: abstract text
   #   img: 001.jpg
