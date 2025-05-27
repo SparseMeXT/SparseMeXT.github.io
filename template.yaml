@@ -91,7 +91,6 @@ body:
     text: |
       <div uk-slider>
         <div class="uk-position-relative uk-visible-toggle uk-light">
-        #  tabindex="-1"
           <div>
             <video
               src="submit_video_iros.mp4"
