@@ -77,7 +77,7 @@ bibtex: >
     year    = {2025}
   }
 
-teaser: overall_framework.png
+teaser: overall_framework.jpg
 abstract: |
   Recent advancements in high-definition (HD) map construction have demonstrated the effectiveness of dense representations, which heavily rely on computationally intensive bird’s-eye view (BEV) features. 
   While sparse representations offer a more efficient alternative by avoiding dense BEV processing, existing methods often lag behind due to the lack of tailored designs. 
@@ -89,7 +89,6 @@ abstract: |
 body:
   - title: Media examples
     text: |
-      test 123123
       <div uk-slider>
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div>
