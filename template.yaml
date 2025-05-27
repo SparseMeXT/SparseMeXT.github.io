@@ -1,65 +1,96 @@
 theme: default # default || classic || dark
-organization: Pixel Genius Labs
-twitter: '@denkivvakame'
-title: Academic Project Page Template
-journal: "AAAA'24"
+organization: Bosch CR
+twitter: '@peterjaq'
+title: 'SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction'
+journal: "IROS'25 under review"
 resources:
-  paper: # https://openreview.net/
-  arxiv: https://arxiv.org
-  code: https://github.com/denkiwakame/academic-project-template
-  video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
-  demo: https://colab.research.google.com/
-  huggingface: https://huggingface.co/
+  paper: https://arxiv.org/html/2505.08808v1
+  arxiv: https://arxiv.org/html/2505.08808v1
+  code: https://github.com/SparseMeXT
+  # video: https://www.youtube.com/embed/onbnb_D1wC8?si=xJczUv716Lt5aO4l&amp;start=1150
+  # demo: https://colab.research.google.com/
+  # huggingface: https://huggingface.co/
 description: academic projectpage template that supports markdown and KaTeX
 
 image: https://denkiwakame.github.io/academic-project-template/teaser.jpg
 url: https://denkiwakame.github.io/academic-project-template
 speakerdeck: # speakerdeck slide ID
 authors:
-  - name: Wakame Denki*
+  - name: Anqing Jiang
     affiliation: [1, 2]
-    url: http://denkiwakame.github.io/
+    url: https://github.com/PeterJaq
+    position: Researcher
+  - name: Jinhao Chai*
+    affiliation: [1, 2]
     position: intern
-  - name: Jane Doe
+    # url: https://thispersondoesnotexist.com/
+  - name: Yu Gao
     affiliation: [1]
     position: Researcher
-    url: https://thispersondoesnotexist.com/
-  - name: John Smith
+    # url: https://thispersondoesnotexist.com/
+  - name: Yiru Wang
     affiliation: [1]
     position: Researcher
-    url: https://thispersondoesnotexist.com/
+  - name: Yuwen Heng
+    affiliation: [1]
+    position: Researcher
+  - name: Zhigang Sun
+    affiliation: [1]
+    position: Researcher
+  - name: Hao Sun
+    affiliation: [1]
+    position: Researcher
+  - name: Zezhong Zhao
+    affiliation: [2]
+    position: Researcher
+  - name: Li Sun
+    affiliation: [2]
+    position: Researcher
+  - name: Jian Zhou
+    affiliation: [2]
+    position: Researcher
+  - name: Lijuan Zhu
+    affiliation: [1]
+    position: Researcher
+  - name: Hao Zhao
+    affiliation: [3]
+    position: Researcher
+  - name: Shugong Xu
+    affiliation: [4]
+    position: Researcher
+
 affiliations:
-  - Pixel Genius Labs
-  - NeuroNauts Academy
+  - Bosch Corporate Research
+  - Shanghai University
+  - Bosch Mobility Solutions
+  - AIR, Tsinghua University
+  - Xi’an Jiaotong-Liverpool University
+
 meta:
-  - '*work done while she was interning at Pixel Genius Lab.'
+  - '*work done while she was interning at Bosch Corporate Research'
+
 bibtex: >
-  @article{doe2024superai,
-    author    = {Jane Doe and John Smith},
-    title     = {Unleashing the Power of Super AI: Transforming the Future of Technology},
-    journal   = {Journal of Superintelligent Systems},
-    year      = {2024},
-    volume    = {99},
-    number    = {1},
-    pages     = {1-42},
-    month     = {January},
-    keywords  = {Super AI, Machine Learning, Artificial Intelligence, Technological Innovation},
-    doi       = {10.9999/jsis.2024.001},
-    url       = {https://www.example.com/superai-article},
-    note      = {This paper sets the benchmark for future AI research and applications.}
+  @article{jiang2025sparsemext,
+    title   = {SparseMeXT Unlocking the Potential of Sparse Representations for HD Map Construction},
+    author  = {Jiang, Anqing and Chai, Jinhao and Gao, Yu and Wang, Yiru and Heng, Yuwen and Sun, Zhigang and Sun, Hao and Zhao, Zezhong and Sun, Li and Zhou, Jian and others},
+    journal = {arXiv preprint arXiv:2505.08808},
+    year    = {2025}
   }
 
 teaser: teaser.jpg
 abstract: |
-  This is a versatile template designed to satisfy your research project page needs, all while harnessing the power of 🎨**UIKit** and ⚛ **React**. Built on the foundations of simplicity and flexibility, this template allows you to focus on expressing your ideas without the hassle of directly handling CSS—thanks to customizable SASS variables.
-  With markdown as your canvas and $\KaTeX$ for precise equations, crafting clear and engaging project page becomes effortless. Whether you're unraveling complex theories or presenting your findings, this template aims to support your scholarly endeavors with grace and ease.
-  *Need to edit HTML directly?* Fear not! In addition to markdown, you can also directly write HTML with ease. Feel empowered to craft your content exactly as you envision it, whether through markdown's simplicity or the precision of HTML.
+  Recent advancements in high-definition (HD) map construction have demonstrated the effectiveness of dense representations, which heavily rely on computationally intensive bird’s-eye view (BEV) features. 
+  While sparse representations offer a more efficient alternative by avoiding dense BEV processing, existing methods often lag behind due to the lack of tailored designs. 
+  These limitations have hindered the competitiveness of sparse representations in online HD map construction. In this work, we systematically revisit and enhance sparse representation techniques, identifying key architectural and algorithmic improvements that bridge the gap with—and ultimately surpass—dense approaches. 
+  We introduce a dedicated network architecture optimized for sparse map feature extraction, a sparse-dense segmentation auxiliary task to better leverage geometric and semantic cues, and a denoising module guided by physical priors to refine predictions. Through these enhancements, our method achieves state-of-the-art performance on the nuScenes dataset, significantly advancing HD map construction and centerline detection. 
+  Specifically, SparseMeXt-Tiny reaches a mean average precision (mAP) of 55.5% at 32 frames per second (fps), while SparseMeXt-Base attains 65.2% mAP. Scaling the backbone and decoder further, SparseMeXt-Large achieves an mAP of 68.9% at over 20 fps, establishing a new benchmark for sparse representations in HD map construction. 
+  These results underscore the untapped potential of sparse methods, challenging the conventional reliance on dense representations and redefining efficiency-performance trade-offs in the field.
 
 body:
   - title: Media examples
     text: |
       ### Mediafile Path
-      Files in `public/` can be referenced directly: `<img src="001.jpg" />`
+      Files in `public/` can be referenced directly: `<img src="overall_framework.png" />`
 
       ### UIKit Components
       This template supports all UIKit components.
