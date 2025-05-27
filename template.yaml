@@ -94,7 +94,7 @@ body:
         <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
           <div>
             <video
-              src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+              src="submit_video_iros.mp4"
               loop
               muted
               uk-video="autoplay:inview"
