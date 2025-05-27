@@ -90,18 +90,18 @@ body:
   - title: Media examples
     text: |
       test 123123
-    # <div uk-slider>
-    #   <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
-    #     <div>
-    #       <video
-    #         src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
-    #         loop
-    #         muted
-    #         uk-video="autoplay:inview"
-    #         />
-    #     </div>
-    #   </div>
-    # </div>
+      <div uk-slider>
+        <div class="uk-slider-items uk-grid-small uk-child-width-1-1 uk-child-width-1-2@m uk-grid">
+          <div>
+            <video
+              src="https://yootheme.com/site/images/media/yootheme-pro.mp4"
+              loop
+              muted
+              uk-video="autoplay:inview"
+              />
+          </div>
+        </div>
+      </div>
 
 projects: # relevant projects
   - title: Relevant Project I
