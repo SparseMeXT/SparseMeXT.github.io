@@ -2,7 +2,7 @@ theme: default # default || classic || dark
 organization: Bosch CR
 twitter: '@peterjaq'
 title: 'SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction'
-journal: "IROS'25 under review"
+journal: "IROS'25 Accepted"
 resources:
   paper: https://arxiv.org/html/2505.08808v1
   arxiv: https://arxiv.org/html/2505.08808v1
