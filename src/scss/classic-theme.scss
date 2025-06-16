@@ -54,3 +54,8 @@ $base-focus-outline-style: none;
 @import 'uikit/src/scss/mixins-theme.scss';
 @import 'uikit/src/scss/uikit.scss';
 @import 'normalize.css/normalize.css';
+
+.uk-label-primary {
+  background-color: #4caf50; // 修改为绿色
+  color: white; // 文字颜色
+}
