@@ -106,7 +106,7 @@ projects: # relevant projects
   - title: SparseMeXT
     description: Unlocking the Potential of Sparse Representations for HD Map Construction
     img: overall_framework.jpg
-    journal: "IROS'25 Under Review"
+    journal: "IROS'25 Accepted"
     url: https://sparsemext.github.io/
   # - title: Relevant Project II
   #   description: abstract text
